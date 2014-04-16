@@ -12,7 +12,7 @@
     }
   ],
 
-  "description": "Assertive Access Control List means that instead of storing a record for every combination of role, resource and permission, we apply assertions that look to data already available.",
+  "description": "AplusACL: the \"A\" is for \"assertions\". This means that instead of storing a record for every combination of role, resource and permission, we apply assertions that look to data already available.",
 
   "repository": {
     "type": "git",
@@ -44,6 +44,5 @@
   },
 
   "scripts": {
-    "test": "./node_modules/.bin/mocha -u bdd -R spec"
   }
 }
