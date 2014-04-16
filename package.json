@@ -1,0 +1,49 @@
+{
+  "name": "aplusacl",
+  "homepage": "https://github.com/talentedmrjones/aplusacl",
+  "author": {
+    "name": "Richard Jones",
+    "url": "https://github.com/talentedmrjones"
+  },
+  "contributors": [
+    {
+      "name": "Richard Jones",
+      "url": "https://github.com/talentedmrjones"
+    }
+  ],
+
+  "description": "Assertive Access Control List means that instead of storing a record for every combination of role, resource and permission, we apply assertions that look to data already available.",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/talentedmrjones/aplusacl.git"
+  },
+
+  "version": "0.1.0",
+
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://rem.mit-license.org"
+    }
+  ],
+
+  "main": "./lib/aplusacl.js",
+
+  "dependencies": {
+    "lodash": "~1.3"
+  },
+
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "chai": "~1.7"
+  },
+
+  "engines": {
+    "node": "*"
+  },
+
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -u bdd -R spec"
+  }
+}
